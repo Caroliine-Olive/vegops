@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Barlow";
+}
+
+body{
+
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header{
+    background-color: #dd4145;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+header a{
+    color: white;
+    font-weight: 700;
+}
+
+header a:hover{
+    color: #ebc2c3;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.carrossel{
+    background-color: #ebc2c3;
+    max-width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.carrossel-container{
+    height: 400px;
+    overflow: hidden;
+}
+
+h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 60px 0;
+}
+
+.destaques{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+    column-gap: 46px;
+    row-gap: 60px;
+    margin: 0 auto 60px auto;
+
+}
+
+.destaques-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.destaques-card img{
+    width: 256px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.destaques-card p{
+    width: 160px;
+}
+
+hr{
+    width: 40%;
+    margin: 0 auto;
+    border: solid 2px #ebc2c3;
+    border-radius: 2px;
+}
+
+.cardapio-home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto 60px auto;
+    column-gap: 70px;
+    row-gap: 60px;
+}
+
+.cardapio-home-card{
+    position: relative;
+   
+}
+
+.cardapio-home-card img{
+    width: 160px;
+    height: 120px;
+}
+
+.cardapio-home-card:hover{
+    opacity: 0.5;
+}
+
+.label{
+    position: absolute;
+    height: 36px;
+    background-color: rgba(235, 197, 235, 0.8);
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 6px;
+}
+
+.sobre-home{
+    display: flex;
+    align-items: center;
+    max-width: 728px;
+    margin: 20px auto 10px auto;
+}
+
+.sobre-home p{
+    text-align: center;    
+}
+.sobre-home h2{
+    display: flex;
+    margin-right: 40px;
+}
+ .box-contato{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.detalhe-contato{
+    display: flex;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 10px 0;
+    
+}
+
+.detalhe-contato h3{
+    margin-right: 18px;
+    width: 90px;
+}
+
+.box-redes{
+    display: flex;
+}
+
+.box-redes ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+}
+
+.box-redes img{
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+}
+
+.box-redes li{
+    margin: 2px 0;
+    display: flex;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+}
+
+footer li{
+    margin-bottom: 12px;
+}
+
+.banner{
+    max-width: 100%;
+    height: auto;
+    filter: brightness(.5);
+}
+
+.banner-container{
+    height: 112px;
+    overflow: hidden;
+}
+.banner-container h2{
+    position: absolute;
+}
+
+.teste{
+    display: flex;
+    max-width: 1300px;
+    margin: 10px auto 10px auto;
+}
+
+.teste-one{
+    display: flex;
+    height: 300px;
+    max width: 1300px;
+
+}
+
+.teste-one, .teste-two{
+    display: flex;
+    max-width: 1300px;
+    margin: 150px auto 10px auto;
+}
+
+.teste-two{
+    display: flex;
+    height: 300px;
+    max-width: 1300px;
+    margin: 50px auto 10px auto;
+}
+
+.teste-on{
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+.teste-to{
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+.teste-tree{
+    padding-left: 100px;
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
